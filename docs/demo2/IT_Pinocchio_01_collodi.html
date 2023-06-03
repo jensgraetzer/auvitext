@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>auvitext</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=780" />
+		<script language="javascript" type="text/javascript" src="IT_Pinocchio_01_collodi.js"></script>
+		<script language="javascript" type="text/javascript" src="auvitext-1.0.js"></script>
+		<style type="text/css">
+body {
+	background-color: #eed;
+	margin: 0px;
+	padding: 10px;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: normal 16px "Segoe UI", sans-serif; 
+	color: #000; 
+	
+	scrollbar-width: thin;  /* Scrollbar reduces width */
+	
+	/* You need both lines to hide the scrollbar.*/
+	/* scrollbar-width: none;  
+	overflow: hidden; */
+}
+.frame {
+	width: 720px;
+	margin: 16px auto;
+	padding: 16px;
+	background-color: #fff;
+	border-radius: 24px;
+}
+.subtitle { 
+	font-size: 32px; 
+	hight: 300px;
+}
+.btn { 
+	background: #aaa;
+	padding: 12px;
+	border: 1px solid #aaa;
+	border-radius: 32px;
+	line-height: 48px;
+	color: #000; 
+	user-select: none;
+	text-decoration: none;
+}
+#avtMedia { 
+	width: 720px; 
+}
+#avtProgressbarGround { 
+	background-color: #eee;
+	height: 12px; 
+	width: 100%;
+}
+#avtProgressbarProgress { 
+	position: relative; 
+	top: -12px;
+	background-color: #ccb;
+	height: 12px; 
+}
+#avtPlayBtn { 
+	border: 3px solid #b45; 
+}
+		</style>    
+	</head>
+	<body>
+		<p><span class="btn" onclick="history.back()">&nbsp;&#129128;&nbsp;</span>
+		<div class="frame">
+		
+			<p hidden><small><i>Progress: <span id="avtProgress"></span> %</i></small></p>
+			
+			<div id="avtProgressbar">
+			<div id="avtProgressbarGround"></div>
+			<div id="avtProgressbarProgress" style="width: 0%"></div>
+			</div>
+			
+			<h1>Pinocchio &#128113;</h1>
+			<h2>Capitolo 1</h2>
+			
+			<audio id="avtMedia">
+				<source id="avtMediaSource" src="" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio>
+		
+			<p><span id="avtPreviousBtn" class="btn">back</span>
+			<span id="avtPlayBtn" class="btn">play / pause</span>
+			<span id="avtRepeatBtn" class="btn">repeat (if paused)</span>	
+			<span id="avtNextBtn" class="btn">next</span></p>
+
+			<p><span id="avtSubtitle" class="subtitle">Text Output</span>&nbsp;</p>
+		</div>
+	</body>
+
+</html>
