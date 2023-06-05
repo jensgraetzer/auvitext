@@ -24,7 +24,7 @@ This is an example:
 In order to program a HTML mediafile player using the auvitext.js library:
 
 1. Get the text of the mediafile, you want to play, in SRT (SubRip) format.
-1. Use the Python script str2auvitext.py of this project. It creates a JavaScript file from the SRT file. This file contains an array of titles, found in the SRT file. Each element of the array has time1, time 2 and text. Open this JavaScript file with a text editor and write the name of the media file in the first line.
+1. Use the Python script str2auvitext.py of this project. It creates a JavaScript file from the SRT file. This file contains an array of titles, found in the SRT file. Each element of the array has time1, time2 and text. Open this JavaScript file with a text editor and write the name of the media file in the first line.
 1. Program an audio (or video) player in HTML, using the HTML audio (or video) tag. Do not specify the name of the mediafile. The tag id of the audio tag (or video tag) must be: avtMedia.
 1. Include two JavaScript files in the HTML:
    * the JavaScript file you created from the SRT file
