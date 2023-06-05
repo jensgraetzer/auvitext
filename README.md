@@ -4,14 +4,14 @@ HTML player for mediafiles (audio, video) with synchron text display and easy na
 
 ## Media player navigation
 
-A simple player of multimedia content (audio, video) has at least tree buttons: Besides the "play/stop" button there are also the "back" and the "forward" buttons. These last two buttons allow to navigate in the media performance. At every button press the player navigates a couple of seconds backwards or forwards the media performance.
+A simple player of multimedia content (audio, video) has at least tree buttons: Besides the "play/pause" button there are also the "back" and the "forward" buttons. These last two buttons allow to navigate in the media performance. At every button press the player navigates a couple of seconds backwards or forwards the media performance.
 
 For listeners of podcasts or pop music it would be more user friendly if a press of the back button navigates back to the start of the previous sentence of the text. And a press of the forward button navigates to the start of the next sentence. For listeners of foreign podcasts and learners of a foreign language it would be helpful, if they could read the text or lyrics at the player display, and if they could repeat the actual sentence.
 
 This project allows you to build an audio or video player in HTML and JavaScript, that displays the text, supports navigation to the beginning of text sentences, and allows to repeat sentences. The player has a text display and these four navigation buttons:
 
 * Back
-* Play/Stop
+* Play/Pause
 * Repeat
 * Forward
 
