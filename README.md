@@ -65,6 +65,7 @@ So a working media player needs at least four files - see the example in this re
 
 In order to test this player simply copy these four files onto your computer and doubleclick the example.html. This will start the player in your webbrowser.
 
-## Remark
+## Remarks
 
-For audio content do use the M4A audio format instead of the MP3 format because of its much better timing precicion.
+1. For audio content do use the M4A audio format instead of the MP3 format because of its much better timing precicion.
+1. For navigation you can also use the cursor keys of your PC keyboard.</p>
