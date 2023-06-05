@@ -143,3 +143,4 @@ outFilename = filename + ".js"
 with open(outFilename, 'w', encoding="utf-8") as f:
     for item in outDataList:   
         f.write(item)
+ 
