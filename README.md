@@ -57,7 +57,7 @@ In order to program a HTML mediafile player using the auvitext.js library:
 			height: 12px; 
 		}
 
-So a working media player needs al least four files - see the example in this repository:
+So a working media player needs at least four files - see the example in this repository:
 * example.m4a
 * example.html
 * example.js
