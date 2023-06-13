@@ -6,7 +6,7 @@ var subt = [
  [3.496,9.156,"Tutte le registrazioni di LibriVox sono di dominio pubblico."],
  [9.156,20.318,"librivox.org"],
  [20.318,26.750,"Registrato da Simona Pagliari."],
- [26.750,30.886,"<b>Le avventure di Pinocchio</b><br>di Collodi"],
+ [26.750,30.886,"<b>Le avventure di Pinocchio</b><br><small>di Collodi</small>"],
  [30.886,33.430,"<i>Capitolo secondo.</i>"],
  [33.430,49.192,"<i>Maestro Ciliegia regala il pezzo di legno al suo amico Geppetto, il quale lo prende per fabbricarsi un burattino maraviglioso, che sappia ballare, tirar di scherma e fare i salti mortali.</i>"],
  [49.192,59.568,"In quel punto fu bussato alla porta.<br>— Passate pure, — disse il falegname, senza aver la forza di rizzarsi in piedi."],

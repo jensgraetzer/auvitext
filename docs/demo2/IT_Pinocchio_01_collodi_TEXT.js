@@ -1,4 +1,4 @@
-var mediafile = "IT_Pinocchio_01_collodi_TEXT.m4a";
+var mediafile = "IT_Pinocchio_01_collodi.m4a";
 //var lan_1 = "deutsch"
 //var subt_1 = [
 var subt = [
@@ -6,7 +6,7 @@ var subt = [
  [3.521,9.181,"Tutte le registrazioni di LibriVox sono di dominio pubblico."],
  [9.181,20.342,"librivox.org"],
  [20.342,26.772,"Registrato da Simona Pagliari."],
- [26.772,30.684,"<b>Le avventure di Pinocchio</b><br>di Collodi"],
+ [26.772,30.684,"<b>Le avventure di Pinocchio</b><br><small>di Collodi</small>"],
  [30.684,32.647,"<i>Capitolo primo.</i>"],
  [32.647,40.903,"<i>Come andò che Maestro Ciliegia, falegname trovò un pezzo di legno che piangeva e rideva come un bambino.</i>"],
  [40.903,54.307,"— C'era una volta....<br>— Un re! — diranno subito i miei piccoli lettori.<br>— No, ragazzi, avete sbagliato. C'era una volta un pezzo di legno."],
@@ -35,5 +35,5 @@ var subt = [
  [308.138,312.356,"— Smetti! tu mi fai il pizzicorino sul corpo! —"],
  [312.356,321.081,"Questa volta il povero maestro Ciliegia cadde giù come fulminato. Quando riaprì gli occhi, si trovò seduto per terra."],
  [321.081,331.428,"Il suo viso pareva trasfigurito, e perfino la punta del naso, di paonazza come era quasi sempre, gli era diventata turchina dalla gran paura."],
- [331.428,334.566,"<i>Fine del primo capitolo.</i>"]
+ [331.428,334.566,"Fine del primo capitolo."]
 ];
