@@ -1,4 +1,4 @@
-var mediafile = "IT_Pinocchio_01_collodi.m4a";
+var mediafile = "IT_Pinocchio_01_collodi_TEXT.m4a";
 //var lan_1 = "deutsch"
 //var subt_1 = [
 var subt = [
