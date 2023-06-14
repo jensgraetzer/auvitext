@@ -35,5 +35,5 @@ var subt = [
  [308.138,312.356,"— Smetti! tu mi fai il pizzicorino sul corpo! —"],
  [312.356,321.081,"Questa volta il povero maestro Ciliegia cadde giù come fulminato. Quando riaprì gli occhi, si trovò seduto per terra."],
  [321.081,331.428,"Il suo viso pareva trasfigurito, e perfino la punta del naso, di paonazza come era quasi sempre, gli era diventata turchina dalla gran paura."],
- [331.428,334.566,"Fine del primo capitolo."]
+ [331.428,334.566,"<i>Fine del primo capitolo.</i>"]
 ];
